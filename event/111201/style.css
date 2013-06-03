@@ -1,0 +1,41 @@
+
+#floating-comera {
+  position: absolute;
+  top: 300px;
+  right: -120px;
+}
+
+#floating-panel {
+  position: absolute;
+}
+
+#upload-form td,
+#display-table td {
+  font-size: 0pt;
+}
+
+#upload-form td.input {
+  background-color: #1E94D4;
+}
+
+#upload-form form {
+  margin: 0px;
+  padding: 0px;
+}
+
+#upload-form select {
+  margin: 5px 0 0 6px;
+  font-size: 18px;
+}
+
+#floating-cover {
+  position: absolute;
+  top: -22px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0em;
+  background-color: #000;
+  color: #000;
+}
