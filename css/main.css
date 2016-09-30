@@ -51,15 +51,48 @@ ul li,ol li {
 }
 
 #container #banner {
-   width: 803px;
-   height: 460px;
+   width: 959px;
+   height: 482px;
    text-align: center;
    margin-top:22px;
+   position: relative;
+}
+
+#container #banner .banner {
+  position: relative;
+  left: -28px;
+  top: -21px;
 }
 
 #container #banner img {
    margin-left: 0px;
 }
+
+#container #banner a.link {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 99;
+}
+
+
+#container #banner a.about {
+  right: 85px;
+  top: -6px;
+}
+
+#container #banner a.fb {
+  top: 118px;
+  right: 43px;
+}
+
+#container #banner a.ig {
+  top: 206px;
+  right: 124px;
+}
+
+
 
 #container #nav {
    width:803px;
